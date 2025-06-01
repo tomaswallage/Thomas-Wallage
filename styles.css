@@ -34,9 +34,9 @@
 
 .whiteBackground {
     position: absolute;
-    background: white;
+    background: rgb(255, 255, 255);
     width: 100vw;
-    height: 500vh;
+    height: 4000px;
     left: 0;
     top: 700px;
     pointer-events: none;
@@ -44,6 +44,7 @@
 
 .intro {
     position: absolute;
+    position: relative;
     padding: 2vw;
     width: 96vw;
     left: 0;
@@ -65,10 +66,12 @@
 
 .gridContainer {
     position: absolute;
+    position: relative;
+    background: rgb(255, 255, 255);
     width: 96vw;
-    height: 440vh;
+    height: 460vh;
     left: 0;
-    top: 150vh;
+    top: 100vh;
     padding: 10px;
     /* background: red; */
     z-index: 1;
@@ -172,3 +175,25 @@
     display: flex;
 }
   
+.grid-container-asia {
+    position: absolute;
+    width: 96vw;
+    height: 200vh;
+    left: 0;
+    top: 10vh;
+    padding: 10px;
+    /* background: red; */
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 350px;
+}
+
+.grid-container-asia div {
+    overflow: hidden;
+}
+
+.grid-container-asia img {
+    object-fit: cover;
+}
