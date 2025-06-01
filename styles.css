@@ -78,7 +78,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    grid-template-rows: 500px 325px 350px 180px 350px 300px 600px 420px 500px ;
+    grid-template-rows: 500px 325px 350px 180px 350px 300px 640px 420px 500px ;
 }
 
 .gridContainer div {
