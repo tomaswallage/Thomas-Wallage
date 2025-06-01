@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Base style for all images */
+  .image {
+    position: absolute;
+    display: block;
+  }
+  
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Random placement and size */
+  .image1 {
+    top: 20vh;
+    left: 10vw;
+    width: 300px;
+  }
+  
+  .image2 {
+    top: 55vh;
+    left: 40vw;
+    width: 200px;
+  }
+  
+  .image3 {
+    top: 30vh;
+    left: 65vw;
+    width: 300px;
+  }
+
+  .name {
+    position: absolute;
+    position: relative;
+    padding: 2vw;
+    width: 96vw;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono';
+    font-size: 30px;
+    z-index: 3; 
+    text-decoration: none;
+}
+  
