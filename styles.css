@@ -58,6 +58,7 @@
     font-family: 'IBM Plex Mono';
     font-size: 35px;
     background: rgb(225, 225, 225);
+    text-decoration: none;
 }
 
 .mediums:hover {
@@ -181,8 +182,8 @@
     position: absolute;
     position: relative;
     background: rgb(255, 255, 255);
-    width: 96vw;
-    height: 460vh;
+    width: 95vw;
+    height: 300vh;
     left: 0;
     top: 15vh;
     display: grid;
@@ -200,12 +201,12 @@
  
 .text {
     position: relative;
-    padding: 2vw;
-    width: 96vw;
+    padding: 20px;
+    width: 95vw;
     left: 0;
     top: 10vh;
     font-family: 'IBM Plex Mono';
-    font-size: 30px;
+    font-size: 25px;
     z-index: 1;
 }
 
@@ -223,7 +224,7 @@
     position: absolute;
     position: relative;
     padding: 2vw;
-    width: 96vw;
+    width: 94vw;
     left: 0;
     top: 0;
     text-decoration: none;
@@ -235,7 +236,7 @@
 .grid-container-SDA {
     position: absolute;
     position: relative;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     width: 56vw;
     height: 75vh;
     left: 20vw;
@@ -261,4 +262,67 @@
     height: auto;
     top:20vh;
     left: 0;
+}
+
+/* .pubimg2 {
+    position: absolute;
+    position: fixed;
+    padding: 0;
+    width: auto;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -3;
+} */
+
+.collabImages {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    left: 0;
+    top: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.collabIMG {
+    padding: 10px;
+    position: relative;
+    height: 50vh;
+    width: auto;
+
+}
+
+.cassette {
+    position: absolute;
+    position: relative;
+    padding: 2vh;
+    width: 76vw;
+    height: auto;
+    top: 0;
+    left: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+a,
+a:visited {
+  color: inherit; /* or any color you want */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* or keep as none if you don't want any */
+}
+
+a:active {
+  color: inherit;
 }
