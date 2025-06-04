@@ -7,9 +7,10 @@ const images = [
     'webimages/image4.PNG',
     'webimages/image5.jpg',
     'webimages/imageclock.PNG',
-    'webimages/image7.jpg',
+    // 'webimages/image7.jpg',
     'webimages/image8.jpg',
-    'webimages/image9.jpg'
+    'webimages/image9.jpg',
+    'webimages/image10.jpg'
 ];
 
 // Function to change the background based on mouse X position
